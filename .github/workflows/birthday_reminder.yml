@@ -2,7 +2,7 @@ name: Birthday Reminder
 
 on:
   schedule:
-    - cron: '05 0 * * *'  # 每天运行任务 (UTC 时间)
+    - cron: '05 03 * * *'  # 每天运行任务 (UTC 时间)
   workflow_dispatch:  # 添加手动触发事件
 
 jobs:
